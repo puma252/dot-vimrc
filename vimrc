@@ -215,6 +215,11 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
+nnoremap gd <c-w>j
+nnoremap gu <c-w>k
+nnoremap gl <c-w>h
+nnoremap gr <c-w>l
+
 " When editing a file, always jump to the last cursor position
 autocmd BufReadPost *
       \ if ! exists("g:leave_my_cursor_position_alone") |
